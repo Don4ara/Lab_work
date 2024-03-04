@@ -1,0 +1,69 @@
+
+
+body{
+    background: #14110E;
+    font-family: "Urbanist",sans-serif;
+}
+
+
+
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background: #1C1814;
+    justify-content: space-around;
+    height: 125px;
+}
+
+.header_menu_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+}
+
+.header_link{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header_link_2{
+    color: white;
+}
+
+
+
+.header_1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 151px;
+}
+
+.header_2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 48px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media (max-width: 980px) {
+    .header_menu_list{
+        display: none;
+    }
+
+}
+
+
+
+
+
